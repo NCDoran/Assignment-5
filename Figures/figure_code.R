@@ -9,11 +9,11 @@ siscowet <- read_csv("Data/siscowet.csv")
 #This is the vioplots package I told you about, I pretty much just copied
 #And pasted the code from the blue crab violin plots I made earlier this week
 vioplot(siscowet$age~siscowet$locID+siscowet$sex,
-        main="Age Composition of Lake Superior Siscowet Trout by Sex")
+        main="Age Composition of Siscowet Lake Trout")
 
 #Expository Figure
 vioplot(data=siscowet, age~sex+locID,
-        main="Age and Sex Composition of Lake Superior Siscowet Lake Trout",
+        main="Age Composition of Siscowet Lake Trout",
         ylab="Age (years)", xlab="Sampling Locations",
         col=c("palevioletred", "skyblue4"),
         names=c("Blind Sucker"," ", "Grand Marais"," ",
