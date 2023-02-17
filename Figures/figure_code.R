@@ -14,8 +14,8 @@ vioplot(data=siscowet, age~sex+locID,
         main="Age and Sex Composition of Lake Superior Siscowet Lake Trout",
         ylab="Age (years)", xlab="Sampling Locations",
         col=c("palevioletred", "skyblue4"),
-        names=c("Blind Sucker","Blind Sucker", "Lake Morais","Lake Morais",
-                "Little Lake Harbor", "Little Lake Harbor"))
+        names=c("Blind Sucker"," ", "Grand Marais"," ",
+                "Little Lake Harbor", " "), cex.names= 1.4)
 legend(x=1.2, y=21,legend=c("Female", "Male"), col=c("palevioletred", "skyblue4"), 
-       lty=1, lwd=4, cex=0.7, bty="n")
-?vioplot
+       lty=1, lwd=8, cex=0.7, bty="n")
+
